@@ -1,1 +1,1 @@
-# landing-page
+A website for the Odin Project.
