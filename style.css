@@ -87,7 +87,6 @@ img {
         flex-basis: 50%;
     }
 }
-
 .project h1 {
     text-align: center;
 }
@@ -98,6 +97,9 @@ img {
     flex-wrap: wrap;
 }
 .project-item {
-    border: 1px solid blue;
     padding: 20px;
+}
+.project-item img {
+    width: 150px;
+    height: 200px;
 }
