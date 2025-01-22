@@ -58,6 +58,8 @@ main {
     background-color: aliceblue;
 }
 
+
+
 .about-me {
     display: block;
     display: flex; /* confused if display flex or box*/
@@ -87,6 +89,9 @@ img {
         flex-basis: 50%;
     }
 }
+
+
+
 .project h1 {
     text-align: center;
 }
@@ -102,4 +107,5 @@ img {
 .project-item img {
     width: 150px;
     height: 200px;
+    border-radius: 50%;
 }
