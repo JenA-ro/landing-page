@@ -5,12 +5,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: palevioletred;
 }
 main {
     flex-grow: 1;
 }
 .sub-container {
-    border: 8px solid green;
     display: block;
     padding: 10px;
     width: 90%;
@@ -19,9 +19,7 @@ main {
     margin-left: auto;
 }
 
-header, footer{
-    background-color: pink;
-}
+
 .header-container {
     display: flex;
     padding: 20px;
@@ -53,9 +51,14 @@ header, footer{
 }
 
 
+#one {
+    background-color: pink;
+}
+#two {
+    background-color: aliceblue;
+}
 
 .about-me {
-    border: 8px solid orange;
     display: block;
     display: flex; /* confused if display flex or box*/
     flex-direction: column;
@@ -85,14 +88,10 @@ img {
     }
 }
 
-.project {
-    border: 4px solid pink;
-}
 .project h1 {
     text-align: center;
 }
 .item {
-    border: 4px solid rgb(85, 16, 60);
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
