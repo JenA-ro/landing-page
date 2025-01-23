@@ -1,1 +1,1 @@
-A website for the Odin Project.
+A website for the Odin Project. although not polished.
